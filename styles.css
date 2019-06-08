@@ -1,0 +1,701 @@
+body {
+    margin: 0;
+    min-width: 900px;
+}
+
+header {
+    background-image: url(pics/header/background.png);
+    background-color: #f8f8f9;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.header-top, .header-middle, .main-desc, .about-us, .specialist-profile, .specialist-advantages-block, .diplomas, .relax-smile-wrapper, .indications-relax-wrapper, .reviews-wrapper, .four-reasons-relax-wrapper, .contacts-wrapper, .footer-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav, .header-contacts {
+    width: 40%;
+}
+
+.header-logo {
+    width: 20%;
+    text-align: center;
+}
+
+.header-nav, .header-contacts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-nav a {
+    font-family: 'Museo Sans Cyrl 500';
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.header-nav a:hover {
+    color: #fde910;
+}
+
+.header-nav a, .header-logo img, .header-contacts > p {
+    padding-top: 20px;
+}
+
+.header-logo img {
+    width: 100px;
+}
+
+.header-contacts p {
+    font-family: 'Museo Sans Cyrl 500';
+    font-size: 13px;
+    color: #fff;
+}
+
+.header-contacts p:first-child:before {
+    content: url(pics/header/email.png);
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+.header-contacts p:last-child:before {
+    content: url(pics/header/phone-call.png);
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+.header-middle {
+    text-align: center;
+}
+
+.header-headline {
+    font-family: 'Museo Sans Cyrl 700';
+    font-size: 35px;
+    padding: 40px 30px 20px 30px;
+    color: #fff;
+}
+
+.header-middle p {
+    font-family: 'Museo Sans Cyrl 300';
+    font-size: 18px;
+    color: #fff;
+    margin: 0 0 60px 0;
+}
+
+.register {
+    font-family: 'Museo Sans Cyrl 500';
+    font-size: 13px;
+    color: #fff;
+    background-color: #507f4c;
+    padding: 25px 35px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    margin-bottom: 100px;
+    transition: .5s;
+}
+
+.register:hover, .relax-smile-button:hover {
+    color: #507f4c;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.spritesheet {
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+    background-color: #fff;
+    padding: 5px 10px;
+}
+
+.spritesheet a {
+    display: block;
+}
+
+.facebook {
+    background-image: url(pics/header/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 34px;
+    height: 34px;
+}
+
+.instagram {
+    background-image: url(pics/header/inst.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 34px;
+    height: 34px;
+}
+
+.youtube {
+    background-image: url(pics/header/youtube.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 34px;
+    height: 34px;
+}
+
+.ok {
+    background-image: url(pics/header/ok.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 34px;
+    height: 34px;
+}
+
+main, footer {
+    background-color: #f8f8f9;
+}
+
+.main-desc {
+    display: flex;
+    padding: 50px 0 50px 0;
+}
+
+.wrapper-desc {
+    width: 30%;
+    text-align: center;
+}
+
+.wrapper-items {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.wrapper-desc-elem {
+    width: 75%;
+    background: -webkit-linear-gradient(top, #5d8c59, #23491e);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.wrapper-desc-elem p:first-child {
+    font-family: 'Museo Sans Cyrl 500';
+    font-size: 15px;
+    color: #fff;
+}
+
+.wrapper-desc-elem p:last-child {
+    font-family: 'Museo Sans Cyrl 300';
+    font-size: 13px;
+    color: #fff;
+}
+
+.item {
+    width: 100%;
+    text-align: center;
+}
+
+.item-paragraph p {
+    font-family: 'Museo Sans Cyrl 500';
+    font-size: 15px;
+    color: #4d614b;
+}
+
+.method-relex {
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.method-relex-header, .about-us-header, .specialist-header, .relex-smile-header, .indications-relax-header, .review-header,  .four-reasons-relax-header, .contacts-header, .formDate-header {
+    font-family: 'Museo Sans Cyrl 700';
+    font-size: 22px;
+    color: #3d7138;
+    margin-top: 50px;
+}
+
+.method-relex-video video {
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.method-relex-video {
+    position: relative;
+}
+
+.method-relex-header:after {
+    content: url(pics/main/glass.png);
+    position: absolute;
+    left: 12%;
+}
+
+.method-relex-video:before {
+    content: url(pics/main/contact-lens-case-3.png);
+    position: absolute;
+    left: 12%;
+    bottom: 20%;
+}
+
+.method-relex-video:after {
+    content: url(pics/main/glass2.png);
+    position: absolute;
+    right: 12%;
+    bottom: 40%;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.about-us-desc, .specialict-desc, .relex-smile-desc, .indications-relax-desc, .four-reasons-relax-desc, .contacts-desc, .formDate-desc {
+    font-family: 'Museo Sans Cyrl 300';
+    font-size: 15px;
+    color: #7b7b7b;
+}
+
+.about-us-info {
+    display: flex;
+}
+
+.about-us-photos {
+    position: relative;
+}
+
+.about-us-photos {
+    width: 45%;
+}
+
+.about-us-list {
+    width: 55%;
+}
+
+.about-us-photos img {
+    width: 60%;
+    border-radius: 10px;
+    position: relative;
+}
+
+figure:before {
+    content: url(pics/main/left_thin.png);
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    transition: .5s;
+    cursor: pointer;
+}
+
+/*
+figure:hover:before {
+    content: url(pics/main/left_thin-hover.png);
+}
+*/
+
+figure:after {
+    content: url(pics/main/right_thin.png);
+    position: absolute;
+    right: 15%;
+    top: 35%;
+    transition: .5s;
+    cursor: pointer;
+}
+
+/*
+figure:hover:after {
+    content: url(pics/main/right_thin-hover.png);
+}
+*/
+
+figcaption {
+    font-family: 'Museo Sans Cyrl 300';
+    font-style: italic;
+    font-size: 12px;
+    color: #504f4f;
+}
+
+.about-us-list li {
+    font-family: 'Museo Sans Cyrl 300';
+    font-size: 15px;
+    color: #7b7b7b;
+    text-align: left;
+    padding: 0 0 10px 0;
+}
+
+.specialist-block {
+    position: relative;
+}
+
+.specialist-block:before {
+    content: url(pics/main/table.png);
+    position: absolute;
+    left: 0;
+    top: 10%;
+}
+
+.specialist-block:after {
+    content: url(pics/main/equipment.png);
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
+
+.specialist-headline, .specialist-photo, .specialist-info, .relex-smile-headline, .indications-relax-headline, .review-headline, .four-reasons-relax-headline, .contacts-headline {
+    text-align: center;
+}
+
+.specialist-info {
+    border-radius: 60% 60% 0 0;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.specialist-photo-info {
+    font-family: 'Museo Sans Cyrl 300';
+    font-size: 13px;
+    color: #7b7b7b;
+    margin-bottom: 0;
+}
+
+.specialist-photo img {
+    width: 20%;
+}
+
+.specialist-photo-header, .relax-smile-description-header, .indications-relax-item-header, .review-description-header, .contacts-item-header {
+    font-family: 'Museo Sans Cyrl 500';
+    font-size: 15px;
+    color: #244222;
+}
+
+.advant-head {
+    margin-top: 0;
+}
+
+.specialist-advantages {
+   background-color: #fff; 
+   padding-bottom: 30px;
+}
+
+.specialist-advantages-block {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.specialist-advantages-item {
+    display: inline-flex;
+    width: 50%;
+}
+
+.specialist-advantages-pic {
+    margin: 0 15px 0 0;
+}
+
+.specialist-advantages-desc ul {
+    padding-left: 15px;
+}
+
+.specialist-advantages-desc li {
+    font-family: 'Museo Sans Cyrl 300';
+    font-size: 13px;
+    color: #696969;
+    padding-bottom: 10px;
+}
+
+.diplomas {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 20px;
+}
+
+.diplomas:before {
+    content: url(pics/main/left_thin.png);
+    position: absolute;
+    left: -5%;
+    top: 30%;
+    cursor: pointer;
+}
+
+.diplomas:after {
+    content: url(pics/main/right_thin.png);
+    position: absolute;
+    right: -5%;
+    top: 30%;
+    cursor: pointer;
+}
+
+.diplom-item-block p {
+    font-family: 'Museo Sans Cyrl 300';
+    font-size: 13px;
+    color: #898b88;
+    text-align: center;
+}
+
+.diplom-item {
+    background-color: #e6e6e6;
+    border-radius: 10px;
+}
+
+.diplom-item img {
+    padding: 60px 40px;
+}
+
+.relax-smile-wrapper {
+    padding-bottom: 50px;
+}
+
+.relex-smile-about {
+    background-image: url(pics/main/backgriund.png);
+    background-size: 100% 100%;
+    background-color: #fff;
+}
+
+.relex-smile-header {
+    margin: 0;
+    padding: 70px 0 0 0;
+}
+
+.relex-smile-desc {
+    margin: 0;
+    padding: 10px 0 50px 0;
+}
+
+.relax-smile-description {
+    position: relative;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 25px 45px;
+}
+
+.relax-smile-description:after {
+    content: url(pics/main/ISmile.png);
+    position: absolute;
+    top: 35%;
+    right: -10%;
+}
+
+.relax-smile-paragraph p, .relax-smile-paragraph li, .indications-relax-container-item p, .review-description p, .four-reasons-relax-item p, .contacts-item-paragraph, .footer-first-line > p, .footer-last-line p {
+    font-family: 'Museo Sans Cyrl 300' !important;
+    font-size: 15px !important;
+    font-weight: normal !important;
+    color: #696969 !important;
+}
+
+.relax-button-block {
+    text-align: center;
+}
+
+.relax-smile-button {
+    font-family: 'Museo Sans Cyrl 500';
+    font-size: 13px;
+    color: #fff;
+    background-color: #3d7138;
+    padding: 15px 25px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #fff;
+    margin: 50px 0;
+    transition: .5s;
+}
+
+.relax-smile-button:hover {
+    border: 1px solid #507f4c;
+}
+
+.indications-relax-container, .contacts-container {
+    display: flex;
+    text-align: center;
+}
+
+.indications-relax-container div:first-of-type, .indications-relax-container div:last-of-type, .contacts-container div:first-of-type, .contacts-container div:last-of-type {
+    align-self: center;
+    width: 25%;
+}
+
+.indications-relax-container div:nth-child(2), .contacts-container div:nth-child(2) {
+    width: 55%;
+}
+
+.indications-relax-container-item img, .contacts-container-item img {
+    width: 85%;
+}
+
+.reviews-wrapper, .contacts-wrapper {
+    padding-bottom: 50px;
+}
+
+.review-item {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.review-item:before {
+    content: url(pics/main/left_thin.png);
+    position: absolute;
+    left: 3%;
+    top: 45%;
+    cursor: pointer;
+}
+
+.review-item:after {
+    content: url(pics/main/right_thin.png);
+    position: absolute;
+    right: 3%;
+    top: 45%;
+    cursor: pointer;
+}
+
+.review-video {
+    margin-right: 20px;
+}
+
+.review-video, .review-description {
+    width: 40%;
+}
+
+.review-video video {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.four-reasons-to-relax-smile {
+    border-radius: 50%;
+    background-color: #fff;
+    overflow: hidden; 
+}
+
+.four-reasons-to-relax-smile:before {
+    content: url(pics/main/drop%203.png);
+    position: absolute;
+    left: 20%;
+}
+
+.four-reasons-relax-wrapper {
+    background-image: url(pics/main/girl.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding: 40px 0 40px 0;
+}
+
+.four-reasons-relax-container {
+    margin: 50px 0 50px 0;
+    padding-bottom: 30px;
+}
+
+.four-reasons-relax-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.four-reasons-relax-row:last-of-type {
+    margin-top: 40px;
+}
+
+.four-reasons-relax-item {
+    display: inline-flex;
+    width: 30%;
+}
+
+.four-reasons-relax-item img {
+    margin-right: 15px;
+    width: 68px;
+    height: 68px;
+}
+
+.four-reasons-relax-item p {
+    margin-top: 0;
+}
+
+.four-reasons-relax-item p span{
+    font-family: 'Museo Sans Cyrl 700';
+    font-size: 16px;
+    color: #3d7138;
+}
+
+.contacts-container {
+    position: relative;
+}
+
+.contacts-container-item p, .socials p {
+    font-family: 'Museo Sans Cyrl 300';
+    font-size: 14px;
+    font-weight: bold;
+    color: #3d7138;
+}
+
+.contacts-container-item:first-of-type:before {
+    content: url(pics/main/contact1.png);
+    position: absolute;
+    top: 0;
+    left: 5%;
+}
+
+.contacts-container-item:first-of-type:after {
+    content: url(pics/main/contact2.png);
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+}
+
+.footer-wrapper {
+    padding: 50px 0 20px 0;
+}
+
+.footer-block {
+    border-radius: 50% 50% 0 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.footer-block:before {
+    content: url(pics/footer/drop%202.png);
+    position: absolute;
+    right: 25%;
+}
+
+.footer-first-line {
+    display: flex;
+    padding-top: 40px;
+}
+
+.footer-first-line > p {
+    width: 80%;
+    padding-right: 20px;
+}
+
+.socials {
+    width: 20%;
+}
+
+.socials a {
+    display: inline-flex;
+}
+
+.socials p {
+    margin-bottom: 5px;
+}
+
+.footer-last-line {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+.footer-last-line p:hover {
+    color: #507f4c !important;
+    text-decoration: underline;
+    cursor: pointer;
+}
